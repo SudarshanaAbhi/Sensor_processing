@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 from scipy.signal import find_peaks
 
-# Read the Excel file
-file = "C:/Users/Abhinand/Desktop/TMB02010_edit.csv" #"C:\Users\Abhinand\Desktop\TMB02009_edit.csv" ""C:\Users\Abhinand\Desktop\TMB02009_update.xlsx"" ""C:\Users\Abhinand\Desktop\TMB02010_edit.csv""
+# Insert the path to your Excel file
+file = " " 
 df = pd.read_csv(file)
 
 # Function to extract chunks between headers
