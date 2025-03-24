@@ -229,6 +229,3 @@ def execute():
     extract_data_chunks(df)
 
 execute()
-
-
-
